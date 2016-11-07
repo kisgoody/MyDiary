@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+                <!-- Customize your theme here. -->
+                <item name="colorPrimary">@color/colorPrimary</item>
+                <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+                <item name="colorAccent">@color/colorPrimary</item>
+                <item name="android:windowBackground">@color/windowBg</item>
+                <item name="android:windowLightStatusBar">true</item>
+        </style>
+
+        <style name="AppTheme.MainActivity_1" parent="Theme_First">
+                <!-- Customize your theme here. -->
+                <item name="android:windowEnterTransition">@transition/category_enter</item>
+                <item name="android:windowExitTransition">@transition/category_exit</item>
+                <item name="android:windowLightStatusBar">true</item>
+
+        </style>
+</resources>

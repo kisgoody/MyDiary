@@ -1,0 +1,52 @@
+<resources>>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.MainActivity_1" parent="Theme_First">
+        <!-- Customize your theme here. -->
+        <item name="android:windowEnterTransition">@transition/category_enter</item>
+        <item name="android:windowExitTransition">@transition/category_exit</item>
+
+    </style>
+    <style name="AppTheme.MainActivity_2" parent="Theme_Second">
+        <!-- Customize your theme here. -->
+        <item name="android:windowEnterTransition">@transition/category_enter</item>
+        <item name="android:windowExitTransition">@transition/category_exit</item>
+
+    </style>
+    <style name="AppTheme.MainActivity_3" parent="Theme_Three">
+        <!-- Customize your theme here. -->
+        <item name="android:windowEnterTransition">@transition/category_enter</item>
+        <item name="android:windowExitTransition">@transition/category_exit</item>
+
+    </style>
+    <style name="AppTheme.MainActivity_4" parent="Theme_Four">
+        <!-- Customize your theme here. -->
+        <item name="android:windowEnterTransition">@transition/category_enter</item>
+        <item name="android:windowExitTransition">@transition/category_exit</item>
+
+    </style>
+    <style name="AppTheme.MainActivity_5" parent="Theme_Five">
+        <!-- Customize your theme here. -->
+        <item name="android:windowEnterTransition">@transition/category_enter</item>
+        <item name="android:windowExitTransition">@transition/category_exit</item>
+
+    </style>
+    <style name="ContentActivityTheme.PageActivity" parent="Theme_Second">
+        <!-- Customize your theme here. -->
+        <item name="android:windowEnterTransition">@transition/category_enter</item>
+        <item name="android:windowExitTransition">@transition/category_exit</item>
+
+    </style>
+    <style name="ImagesListTheme.ImagesListActivity" parent="Theme_Five">
+        <!-- Customize your theme here. -->
+        <item name="android:windowEnterTransition">@transition/category_enter</item>
+        <item name="android:windowExitTransition">@transition/category_exit</item>
+
+    </style>
+</resources>

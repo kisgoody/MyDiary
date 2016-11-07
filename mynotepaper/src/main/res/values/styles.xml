@@ -1,0 +1,82 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/windowBg</item>
+    </style>
+    <style name="ContentActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/content_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/content_colorPrimaryDark</item>
+        <item name="colorAccent">@color/content_colorAccent</item>
+        <item name="android:windowBackground">@color/content_windowBg</item>
+    </style>
+    <style name="Theme_First" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary_first</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_first</item>
+        <item name="colorAccent">@color/colorAccent_first</item>
+        <item name="android:windowBackground">@color/windowBg_first</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme_Second" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary_second</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_second</item>
+        <item name="colorAccent">@color/content_colorAccent</item>
+        <item name="android:windowBackground">@color/windowBg_second</item>
+    </style>
+    <style name="Theme_Three" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary_three</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_three</item>
+        <item name="colorAccent">@color/colorAccent_three</item>
+        <item name="android:windowBackground">@color/windowBg_three</item>
+    </style>
+    <style name="Theme_Four" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary_four</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_four</item>
+        <item name="colorAccent">@color/colorAccent_four</item>
+        <item name="android:windowBackground">@color/windowBg_four</item>
+        <!--<item name="android:textColor">@color/colorPrimary_five</item>-->
+        <!--<item name="android:labelTextSize">12sp</item>-->
+    </style>
+    <style name="Theme_Five" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary_five</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_five</item>
+        <item name="colorAccent">@color/colorAccent_five</item>
+        <item name="android:windowBackground">@color/windowBg_five</item>
+    </style>
+
+    <style name="ImagesListTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/content_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/content_colorPrimaryDark</item>
+        <item name="colorAccent">@color/content_colorAccent</item>
+        <item name="android:windowBackground">@color/content_windowBg</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.MainActivity_1" />
+    <style name="AppTheme.MainActivity_2" />
+    <style name="AppTheme.MainActivity_3" />
+    <style name="AppTheme.MainActivity_4" />
+    <style name="AppTheme.MainActivity_5" />
+    <style name="ContentActivityTheme.PageActivity" />
+    <style name="ImagesListTheme.ImagesListActivity" />
+
+    <style name="pop_animator_style">
+        <item name="android:windowEnterAnimation">@animator/pop_in</item>
+        <item name="android:windowExitAnimation">@animator/pop_out</item>
+    </style>
+
+</resources>

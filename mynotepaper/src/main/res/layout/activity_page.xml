@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    skin:theme_type="BackGround|WindowBg"
+    tools:context="zhao.edifier.com.mynotepaper.PageActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:elevation="5dp"
+        skin:theme_type="BackGround|Primary"
+        >
+        <!--android:background="?attr/colorPrimary"-->
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="2016年9月26 下午4时49分"
+            android:textColor="@android:color/white"
+            android:paddingLeft="?attr/actionBarSize"
+            android:transitionName="@string/main_transition_name_textView"
+            skin:theme_type="TextColor"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:src="@drawable/ic_arrow_wiithe"
+            android:layout_centerVertical="true"
+            android:focusable="true"
+            android:background="@drawable/recycler_bg"
+            />
+
+        <ImageView
+            android:id="@+id/iv_more"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_more_withe"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:layout_centerVertical="true"
+            android:background="@drawable/recycler_bg"
+            />
+
+        <ImageView
+            android:id="@+id/ib_maps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:src="@drawable/ic_pic_withe"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/iv_more"
+            android:background="@drawable/recycler_bg"
+            />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:background="@null"
+        skin:theme_type="TextColor"
+        android:layout_below="@id/rl_title"
+        android:padding="16dp"
+        android:lineSpacingExtra="8dp"
+        android:textSize="14sp"
+        android:elevation="5dp"
+        />
+
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:id="@+id/til_hint"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="hello notepaper"-->
+        <!--android:textColorHint="#FFFFFF"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_below="@id/rl_title"-->
+        <!--android:layout_margin="8dp"-->
+        <!-->-->
+    <!--<android.support.design.widget.TextInputEditText-->
+        <!--android:id="@+id/text_content"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:maxLength="250"-->
+        <!--android:lineSpacingExtra="8dp"-->
+        <!--android:shadowColor="#000000"-->
+        <!--android:textColorLink="@android:color/holo_blue_bright"-->
+        <!--android:textColorHint="@android:color/holo_green_dark"-->
+        <!--android:textColorHighlight="@android:color/white"-->
+        <!--/>-->
+
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/rv_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@id/til_hint"-->
+        <!-->-->
+
+    <!--</android.support.v7.widget.RecyclerView>-->
+
+    <ViewStub
+        android:id="@+id/re_maps"
+        android:layout="@layout/recycler_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_info"
+        android:transitionName="@string/main_transition_name_image"
+
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_add_24dp" />
+</RelativeLayout>

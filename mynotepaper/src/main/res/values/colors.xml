@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="colorPop">#FFFFFF</color>-->
+    <color name="colorPop">#f3faf3</color>
+
+    <color name="colorPrimary">#00b7d1</color>
+    <color name="colorPrimaryDark">#00a4b7</color>
+    <color name="colorAccent">#f5da6b</color>
+    <color name="windowBg">#443f46</color>
+
+    <color name="content_colorPrimary">#03a9f4</color>
+    <color name="content_colorPrimaryDark">#038dcc</color>
+    <color name="content_colorAccent">#ff193a</color>
+    <color name="content_windowBg">#84ffff</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary_first">#1ce8b5</color>
+    <!--<color name="colorPrimaryDark_first">#FFFFFF</color>-->
+    <color name="colorPrimaryDark_first">#19cc9f</color>
+    <color name="colorAccent_first">#ffffff</color>
+    <color name="windowBg_first">#baf5c9</color>
+
+    <color name="colorPrimary_second">#ffeb38</color>
+    <color name="colorPrimaryDark_second">#e6d335</color>
+    <color name="colorAccent_second">#ffffff</color>
+    <color name="windowBg_second">#ffff8b</color>
+
+    <color name="colorPrimary_three">#03a9f4</color>
+    <color name="colorPrimaryDark_three">#038dcc</color>
+    <color name="colorAccent_three">#ffffff</color>
+    <color name="windowBg_three">#84ffff</color>
+
+    <color name="colorPrimary_four">#ff5452</color>
+    <color name="colorPrimaryDark_four">#e64a4a</color>
+    <color name="colorAccent_four">#ffffff</color>
+    <color name="windowBg_four">#ff8981</color>
+
+    <color name="colorPrimary_five">#7e57c2</color>
+    <color name="colorPrimaryDark_five">#6c4aa6</color>
+    <color name="colorAccent_five">#ffffff</color>
+    <color name="windowBg_five">#b388ff</color>
+
+    <color name="colorPrimary_six">#f2f2f2</color>
+    <color name="colorPrimaryDark_six">#343434</color>
+    <color name="colorAccent_six">#343434</color>
+    <color name="windowBg_six">#f2f2f2</color>
+
+    <array name="style_1">
+        <item>@color/colorPrimary_first</item>
+        <item>@color/colorPrimaryDark_first</item>
+        <item>@color/colorAccent_first</item>
+        <item>@color/windowBg_first</item>
+
+    </array>
+    <array name="style_2">
+        <item>@color/colorPrimary_second</item>
+        <item>@color/colorPrimaryDark_second</item>
+        <item>@color/colorAccent_second</item>
+        <item>@color/windowBg_second</item>
+
+    </array>
+    <array name="style_3">
+        <item>@color/colorPrimary_three</item>
+        <item>@color/colorPrimaryDark_three</item>
+        <item>@color/colorAccent_three</item>
+        <item>@color/windowBg_three</item>
+
+    </array>
+    <array name="style_4">
+        <item>@color/colorPrimary_four</item>
+        <item>@color/colorPrimaryDark_four</item>
+        <item>@color/colorAccent_four</item>
+        <item>@color/windowBg_four</item>
+
+    </array>
+    <array name="style_5">
+        <item>@color/colorPrimary_five</item>
+        <item>@color/colorPrimaryDark_five</item>
+        <item>@color/colorAccent_five</item>
+        <item>@color/windowBg_five</item>
+
+    </array>
+    <array name="style_6">
+        <item>@color/colorPrimary_six</item>
+        <item>@color/colorPrimaryDark_six</item>
+        <item>@color/colorAccent_six</item>
+        <item>@color/windowBg_six</item>
+
+    </array>
+    <array name="main_colors_theme">
+        <item>@color/colorPrimary_first</item>
+        <item>@color/colorPrimary_second</item>
+        <item>@color/colorPrimary_three</item>
+        <item>@color/colorPrimary_four</item>
+        <item>@color/colorPrimary_five</item>
+        <item>@color/colorPrimaryDark_six</item>
+    </array>
+
+</resources>
