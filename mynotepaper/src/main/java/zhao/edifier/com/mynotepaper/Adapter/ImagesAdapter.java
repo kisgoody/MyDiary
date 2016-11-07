@@ -42,7 +42,6 @@ public class ImagesAdapter extends RecyclerView.Adapter<ImagesAdapter.MyViewHold
         void onItemClickListener(View v,int position);
         void onItemDeleteClickListener(View v,int position);
         boolean onItemLongClickListener(View v,int position);
-
     }
 
     public void setOnItemClickListener(ItemClickListener itemClickListener){

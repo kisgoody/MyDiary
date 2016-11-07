@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="zhao.edifier.com.mydiary.ViewInterface.MusicSelectActivity">
+    <item
+        android:id="@+id/check"
+        android:icon="@drawable/ic_check_fale"
+        android:orderInCategory="90"
+        android:title="选择日期"
+        app:showAsAction="ifRoom" />
+</menu>

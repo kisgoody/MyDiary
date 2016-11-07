@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DiaryDetailActivity"
+    tools:showIn="@layout/activity_diary_detail">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_hint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/diary_add_hint"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/text_margin"
+        >
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/tiet_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="250"
+        android:lineSpacingExtra="@dimen/line_spacing"
+
+        />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+            <TextView
+                android:id="@+id/tv_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0/250"
+                android:layout_centerVertical="true"
+                />
+            <ImageView
+                android:id="@+id/iv_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_music_logo"
+                android:layout_toLeftOf="@+id/tv_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                />
+            <TextView
+                android:id="@+id/tv_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/iv_music"
+                android:text="text"
+                android:layout_marginRight="8dp"
+                android:layout_centerVertical="true"
+                />
+
+        </RelativeLayout>
+
+
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
